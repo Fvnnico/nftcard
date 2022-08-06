@@ -2,11 +2,45 @@ body{
     font-size: 18px;
     font-family: 'Outfit', sans-serif;
     background-color: hsl(217, 54%, 11%);
+    margin: 0;
+    padding: 0;
+    max-width: 1440px;
 }
 
 .container{
     background-color: hsl(216, 50%, 16%);
     width: 400px;
-    border-radius: 20px;
+    height: 80vh;
+    border-radius: 12px;
+    position: relative;
+    top: 24vh;
+    left: calc(50% - 200px);
+}
+
+.nft{
+    width: 360px;
+    position: absolute;
+    top: 20px;
+    bottom: 10px;
+    left: 20px;
+    right: 20px;
+    border-radius: 10px;
+    cursor: pointer;
     
 }
+
+.nft-icon{
+    
+    opacity: 0;
+    position: absolute;
+    top: 180px;
+    left: 180px;
+    cursor: pointer;
+   
+}
+
+.nft-icon:active {
+    opacity: 1;
+    background-color: hsl(178, 100%, 50%);;   
+}
+
