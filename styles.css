@@ -5,24 +5,24 @@ body{
     margin: 0;
     padding: 0;
     max-width: 1440px;
+    
 }
 
 .container{
     background-color: hsl(216, 50%, 16%);
-    width: 400px;
+    width: 340px;
     height: 80vh;
     border-radius: 12px;
     position: relative;
-    top: 24vh;
+    top: 14vh;
     left: calc(50% - 200px);
 }
 
 .nft{
     
-    width: 360px;
-    position: absolute;
+    width: 300px;
+    position: relative;
     top: 20px;
-    bottom: 10px;
     left: 20px;
     right: 20px;
     border-radius: 10px;
@@ -38,3 +38,66 @@ body{
     cursor: pointer;
 }
 
+.title{
+    margin-top: 35px;
+    color: hsl(0, 0%, 100%);
+    margin-left: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.title:hover{
+    color: hsl(215, 51%, 70%);
+}
+
+.context{
+    color: hsl(215, 51%, 70%);
+    margin-left: 20px;
+    
+}
+
+
+/* flex div */
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    position: relative;
+}
+
+
+.eth{
+    margin-left: 20px;
+    margin-right: 8px;
+}
+
+
+.quantity{
+    color:hsl(178, 100%, 50%);
+    font-size: 16px;
+}
+
+
+.clock{
+    position: absolute;
+    left: 12em;
+}
+
+
+.time{
+    position: absolute;
+    left: 15em;
+    font-size: 16px;
+    color:hsl(178, 100%, 50%);
+}
+
+
+.border-underline{
+    margin: 5px 20px;
+    border-width: 1px;
+    border-bottom: 1px;
+    border-style: solid;
+    border-color: hsl(215, 32%, 27%);
+}
