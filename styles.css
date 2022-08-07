@@ -18,6 +18,7 @@ body{
 }
 
 .nft{
+    
     width: 360px;
     position: absolute;
     top: 20px;
@@ -37,10 +38,3 @@ body{
     cursor: pointer;
 }
 
-.nft-icon:active {
-    opacity: 1;   
-}
-
-.nft:active{
-    background-color: hsl(178, 100%, 50%);
-}
