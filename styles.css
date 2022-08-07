@@ -30,17 +30,17 @@ body{
 }
 
 .nft-icon{
-    
     opacity: 0;
     position: absolute;
     top: 180px;
     left: 180px;
     cursor: pointer;
-   
 }
 
 .nft-icon:active {
-    opacity: 1;
-    background-color: hsl(178, 100%, 50%);;   
+    opacity: 1;   
 }
 
+.nft:active{
+    background-color: hsl(178, 100%, 50%);
+}
