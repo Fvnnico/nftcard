@@ -8,15 +8,17 @@ body{
     
 }
 
+/* image */
+
 .container{
     background-color: hsl(216, 50%, 16%);
     width: 340px;
     border-radius: 12px;
     position: relative;
     top: 14vh;
-    left: calc(50% - 170px);
-    box-shadow: -2px 2px 4px 4px rgba(0, 0, 0, 0.068) ;
+    left: calc(50% - 170px); 
 }
+
 
 .nft{
     width: 88%;
@@ -29,10 +31,7 @@ body{
     
 }
 
-.nft:hover .nft-icon{
-    opacity: 1;
-    color:hsl(178, 100%, 50%);
-}
+
 
 .nft-icon{
     opacity: 0;
@@ -41,6 +40,14 @@ body{
     left: 150px;
     cursor: pointer;
 }
+
+.nft-icon:hover {
+    opacity: 1;
+    
+}
+
+
+/* texts */
 
 .title{
     margin-top: 35px;
