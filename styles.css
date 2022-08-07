@@ -20,12 +20,25 @@ body{
     box-shadow: 0 0 0 15px rgba(0, 0, 0, 0.062);
 }
 
+
+
 #nft-container:hover .nft-icon{
     opacity: 1;
 }
 
-#nft-container:hover .nft{
-    filter: hue-rotate(100);
+#nft-container:hover{
+    opacity: 1;
+}
+
+#nft-container{
+    opacity: 0;
+    width: 88%;
+    position: absolute;
+    height:299px;
+    background-color: rgba(0, 255, 247, 0.397);
+    top: 20px;
+    left: 20px;
+    border-radius: 10px;
 }
 
 .nft{
@@ -38,11 +51,13 @@ body{
     cursor: pointer;
 }
 
+
+
 .nft-icon{
     opacity: 0;
-    position: absolute;
-    top: 150px;
-    left: 150px;
+    position: relative;
+    top: calc(50% - 24px);
+    left: calc(50% - 24px);
     cursor: pointer;
 }
 
